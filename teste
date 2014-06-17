@@ -1,2 +1,53 @@
-teste 1
+================================================
+
+TUTORIAL GIT
+
+================================================
+
+
+
+
+GIT DOCUMENTATION
+
+$ git help log
+
+
+
+----
+
+
+
+INTRODUCING BEFORE ANY OPERATION
+
+$ git config --global user.name "Your Name Comes Here"
+$ git config --global user.email you@yourdomain.example.com
+
+
+
+---
+
+
+
+ADDING FILES
+
+$ git add file1 file2 file3
+
+
+
+---
+
+
+
+SEE WHAT WILL BE COMMITED
+
+$ git diff --cached
+
+	
+	**(Without --cached, git diff will show you any changes that you've made but not yet added to the index.) You can also get a brief summary of the situation with git status:
+
+---
+
+
+
+
 
